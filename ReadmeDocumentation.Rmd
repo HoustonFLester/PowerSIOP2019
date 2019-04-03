@@ -1,0 +1,16 @@
+---
+title: "General Notes"
+output: html_notebook
+---
+
+Steps: not necessarily in any particular order. All scripts should run on their own. 
+(0) Download the materials from Github. Obviously you did that:)
+(1) Open the R project file called ("PowerSIOP2019.Rproj")
+(2) Obtaining the results from the Informative hypothesis simulation can be performed by running the 
+    "ContinuousSimulation.R" script. 
+(3) Recreating the plots can be done by running the
+"Continuous_simulation_results.R"
+(4) Some necessary calculations for the design matrix are done in "Continuous_calculation.R". This information is pre-loaded for you. So you don't have to run it (see "Power_ORM_Design.csv" in the Data folder)
+(5) Recreating the FPC plot can be done by running "FPC_plots.R"
+(6) BayesianSimulation provides the code for the Bayesian simulation and also for the Bayesian Figure. 
+
