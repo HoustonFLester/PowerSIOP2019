@@ -23,7 +23,7 @@ ggplot(data = FPC_plot, aes(x = sampled, y = mult_factor)) +
   theme_bw() +
   ylab("Squared Standard Error") +
   xlab("Percentage of the Population Sampled") +
-  geom_vline(xintercept = 75) +
+  geom_vline(xintercept = 49, linetype = "dashed) +
   ggtitle("Top Panel")
 
 ggplot(data = FPC_plot, aes(x = sampled, y = t_stat)) +
@@ -32,5 +32,5 @@ ggplot(data = FPC_plot, aes(x = sampled, y = t_stat)) +
   theme_bw() +
   ylab("t/z Statistic") +
   xlab("Percentage of the Population Sampled") +
-  geom_vline(xintercept = 75) +
+  geom_vline(xintercept = 49, linetype = "dashed) +
   ggtitle("Bottom Panel")
